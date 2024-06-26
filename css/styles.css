@@ -1,0 +1,88 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    --bg-brand: #0EA5E9;
+    --bg-darkest: #0F172A;
+    --bg-dark: #37476c;
+    --bg-mid: #CBD5E1;
+    --bg-light: #e6ecf3;
+    --biglightest: #FFFFFF;
+}
+
+.menu-text,
+.logo-text {
+    color: var(--bg-darkest);
+    font-weight: 700;
+}
+
+.saldo {
+    width: 70%;
+    height: 20rem;
+    /* border: 2px solid #999; */
+    background-color: var(--bg-mid);
+    border-radius: 13px;
+    padding: 4rem;
+    margin: 1rem 1rem;
+}
+
+
+.icon {
+    font-size: 35px;
+    color: var(--bg-blue-1);
+    margin: 24px 0;
+    transition: .5s;
+    text-align: justify;
+}
+
+.container .cards {
+    width: 10%;
+    height: 8rem;
+    border-radius: 13px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: var(--bg-mid);
+}
+
+.container .cards:hover {
+    background-color: var(--bg-light);
+    cursor: pointer;
+}
+
+.container .cards2 {
+    width: 20%;
+    height: 7rem;
+    border-radius: 13px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--bg-mid);
+}
+
+.container .cards2:hover {
+    background-color: var(--bg-light);
+    cursor: pointer;
+}
+
+.container button {
+    color: var(--bg-light);
+    text-align: center;
+}
+.container .btn {
+    color: var(--bg-darkest);
+}
+
+table h5 {
+    font-weight: 700;
+}
+
+caption {
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    color: var(--bg-darkest);
+}
+
+.top-table {
+    background-color: var(--bg-darkest);
+}
